@@ -1,0 +1,184 @@
+* {
+  margin: 0%;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f7f6ee;
+}
+#main {
+  width: 100%;
+  background-color: #f7f6ee;
+}
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4vw;
+  width: 100%;
+  height: 15vh;
+  background-color: #f7f6ee;
+}
+#nav #links {
+  display: flex;
+  gap: 50px;
+}
+#nav h3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: Poppins;
+}
+#nav h3 span {
+  font-weight: 600;
+}
+#links a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: PlayFair Display;
+  color: black;
+}
+#heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  height: 40vh;
+  background-color: #f7f6ee;
+}
+#heading h1 {
+  font-size: 40px;
+  font-family: PlayFair Display;
+}
+#heading p {
+  text-align: center;
+  width: 50%;
+  margin: 20px;
+  font-size: 14px;
+  font-family: Poppins;
+}
+#heading button {
+  padding: 12px 32px;
+  background-color: black;
+  color: #fff;
+  border-radius: 100px;
+  font-weight: 600;
+  font-family: Poppins;
+}
+#Illus {
+  width: 100%;
+}
+#Illus img {
+  width: 100%;
+}
+#details {
+  display: flex;
+  padding: 10vw 5vw;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #f7f6ee;
+
+  float: left;
+  align-content: flex-start;
+}
+#details #dleft {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 48%;
+  text-align: right;
+  padding-right: 50px;
+  border-right: 2px solid black;
+}
+#details #dleft h1 {
+  font-family: PlayFair Display;
+}
+#details #dleft #smline {
+  width: 5%;
+  height: 2px;
+  background-color: black;
+  margin: 20px 0;
+}
+#details #dleft p {
+  width: 40%;
+  text-align: right;
+  font-size: 12px;
+  font-family: Poppins;
+}
+#details #dright {
+  width: 48%;
+  padding-left: 50px;
+}
+#fdets h3 {
+  font-family: PlayFair Display;
+  font-size: 25px;
+}
+#fdets h4 {
+  font-family: PlayFair Display;
+  font-size: 25px;
+  margin-top: 20px;
+}
+#fdets h5 {
+  font-family: PlayFair Display;
+  font-size: 25px;
+  margin-top: 20px;
+}
+#dright #fdets {
+  gap: 20px;
+}
+#fdets p {
+  margin-top: 10px;
+  font-size: 12px;
+  width: 50%;
+  font-family: Poppins;
+}
+#footer {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer img {
+  position: absolute;
+  margin-left: 0%;
+  justify-content: space-between;
+}
+#lasttext h4 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: Poppins;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#lasttext h6 {
+  display: flex;
+  text-transform: uppercase;
+  font-family: Poppins;
+  font-size: 16px;
+  justify-content: center;
+  margin-top: 2%;
+  text-align: center;
+}
+#lasttext p {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  font-size: 13px;
+  font-weight: 500;
+  top: 100%;
+}
+#lasttext h4 span {
+  font-weight: 800;
+}
+#contact {
+  align-items: center;
+}
